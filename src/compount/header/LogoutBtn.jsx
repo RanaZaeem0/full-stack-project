@@ -15,7 +15,9 @@ const logoutHandler =()=>{
 
   
     return (
-  <button  className='px-6 hover:text-white '
+  <button 
+  onClick={logoutHandler}
+  className='px-6 hover:text-white '
   >Logout</button>
   )
 }

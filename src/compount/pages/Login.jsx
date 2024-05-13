@@ -1,5 +1,5 @@
-import React from 'react'
-import {Login as LoginCompount} from '../Login'
+
+import {Login as LoginCompount} from '../index'
 export default function Login() {
   return (
     <div>

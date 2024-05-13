@@ -1,5 +1,6 @@
-import React, { useCallback, useEffect } from "react";
-import useFrom, { set } from "react-hook-form";
+import  { useCallback, useEffect } from "react";
+// import useFrom, {  } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { Container, Logo, Input, Select, RTE } from "../index";
 import appwriteService from "../../appwrite/config";
 import { useNavigate } from "react-router-dom";
@@ -7,7 +8,7 @@ import { useSelector } from "react-redux";
 
 function PostFrom({ post }) {
   const { register, handleSumbit, watch, setValue, control, getValues } =
-    useFrom({
+    useForm({
       defaultValues: {
         title: post?.title || "",
         slug: post?.slug || "",

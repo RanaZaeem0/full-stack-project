@@ -12,6 +12,13 @@ import PostForm from "./post-form/PostFrom"
 import Container from "./container/Container";
 import AuthLayout from "./AuthLayout"
 import Home from "../compount/pages/Home"
-export  { AuthLayout,Home,
-    Signup,Login,PostCard,PostForm
+import EditPost from "../compount/pages/EditPost";
+import AddPost from "../compount/pages/AddPost";
+import AllPosts from "../compount/pages/Allpost";
+import Post from "../compount/pages/Post";
+import Input from "./Input"
+import Button  from "../compount/Button";
+
+export  { AuthLayout,Home,EditPost,AddPost,Post,Input,Button,
+    Signup,Login,PostCard,PostForm,AllPosts,
     Header,Footer,Logo,Container,LogoutBtn , RTE,Select}
