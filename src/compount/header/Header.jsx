@@ -1,4 +1,4 @@
-import {Logo,Container, Logoutbtn} from "../index"
+import {Logo,Container, LogoutBtn} from "../index"
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -57,7 +57,7 @@ function Header() {
                 ) : null
               )}
               {authStatus && (
-                <Logoutbtn/>
+                <LogoutBtn/>
               )}
             </ul>
           </div>

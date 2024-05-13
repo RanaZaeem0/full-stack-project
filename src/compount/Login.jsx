@@ -79,3 +79,7 @@ export default function Login() {
     </div>
   );
 }
+// the way from will work
+// 1 when u click onsubmit {handleSumbit(login)} 
+// 2 handle submit allready have  access of the register and register have accsee of input filed 
+// theroy is register give this to handlesubmit and handlesub pass it to login  {emial: expamle.com , "passowrd" : 121321 } 

@@ -1,10 +1,9 @@
 import { useState } from "react";
 import authService from "../appwrite/auth";
 import { Link, useNavigate } from "react-router-dom";
-import { login } from "../store/authSlice";
 import { Button, Input, Logo } from "./index";
 import { useDispatch } from "react-redux";
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { login as authLogin } from "../store/authSlice";
 
 function Signup() {
@@ -38,10 +37,10 @@ function Signup() {
           </span>
         </div>
         <h2 className="text-center text-2xl font-bold leading-tight">
-          Sign up to your account{" "}
+          Sign up from new account{" "}
         </h2>
         <p className="mt-2 text-center text-base text-black/60">
-          dont have any account
+          Alread  have any account
           <Link
             to="/signup"
             className="font-medium text-primary transition-all duration-200 hover:underline"
@@ -53,10 +52,10 @@ function Signup() {
         <form onSubmit={handleSubmit(create)} className="mt-9">
           <div className="">
             <Input
-              label="username :"
-              type="username"
-              placeholder="Enter your username"
-              {...register("username", {
+              label="Full name :"
+              type="Full name"
+              placeholder="Enter your Full name"
+              {...register("name", {
                 require: true,
               })}
             />
@@ -77,7 +76,7 @@ function Signup() {
               })}
             />
             <Button type="submit" className="w-full">
-              Sign up
+              Create Account
             </Button>
           </div>
         </form>

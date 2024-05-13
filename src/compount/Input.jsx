@@ -21,7 +21,8 @@ return(
         }
         <input type={type}
         className={`${className}
-        px-3 py-2 rounded-md bg-shite text-black outline-none focus:bg-gray-50 duration-200 border-gray-400 w-full
+        px-3 py-2 rounded-md bg-shite text-black outline-none focus:bg-gray-50 duration-200
+         border-gray-400 w-full
         `}
         ref={ref}
         {...props}
