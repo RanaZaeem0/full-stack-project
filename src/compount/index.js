@@ -11,11 +11,11 @@ import PostCard from "./PostCard"
 import PostForm from "./post-form/PostFrom"
 import Container from "./container/Container";
 import AuthLayout from "./AuthLayout"
-import Home from "../compount/pages/Home"
-import EditPost from "../compount/pages/EditPost";
-import AddPost from "../compount/pages/AddPost";
-import AllPosts from "../compount/pages/Allpost";
-import Post from "../compount/pages/Post";
+import Home from "../pages/Home"
+import EditPost from "../pages/EditPost";
+import AddPost from "../pages/AddPost";
+import AllPosts from "../pages/Allpost";
+import Post from "../pages/Post";
 import Input from "./Input"
 import Button  from "../compount/Button";
 
